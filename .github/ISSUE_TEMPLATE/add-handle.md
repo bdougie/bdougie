@@ -8,5 +8,4 @@ assignees: ''
 ---
 
 ### handle
-  * "Link 1 Description" ([video/slides/post/interview/project/community](URL))
-  * "Link 2 Description" ([video/slides/post/interview/project/community](URL))
+  * "Why this developer is your Top 8" ([video/slides/post/interview/project/community](URL))
