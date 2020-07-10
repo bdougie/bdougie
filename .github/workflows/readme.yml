@@ -24,7 +24,7 @@ jobs:
         bundle exec ruby create-readme.rb
         rm temp.txt
     - name: Create Pull Request
-      if: startsWith("Add handle", ${{ github.event.issue.title }})
+      if: ${{ startsWith(github.event.issue.title, 'Add handle') }}
       uses: peter-evans/create-pull-request@v2
       with:
         commit-message: ${{ github.event.issue.title }}
