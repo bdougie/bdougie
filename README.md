@@ -1,6 +1,9 @@
+<img align="right" src="monadance.gif" width="200"/>
+
 # 🍕 bdougie's Top 8 🍕
 
 ## bdougie has 12121287 followers
+
 
 [@aprilspeight](#aprilspeight) | [@bdougie](#bdougie) | [@dayhaysoos](#dayhaysoos) | [@ifiokjr](#ifiokjr)
 --- | --- | --- | ---
