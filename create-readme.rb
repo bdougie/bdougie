@@ -49,7 +49,8 @@ class Readme
 
   def preview
     [
-      "# 🍕 bdougie's Top 8 🍕",
+      "<img align="right" src="monadance.gif" width="200"/>",
+      "# 🍕 bdougie's Top 8 Page🍕",
       "## bdougie has #{@user.followers} followers",
       build_photo_grid(@developers),
     ].join("\n\n")
@@ -94,7 +95,7 @@ def handle_link(login)
 end
 
 def photo_link(login)
-  "![@#{login}](https://avatars.githubusercontent.com/#{login}?s=100&v=1)"
+  "![@#{login}](https://avatars.githubusercontent.com/#{login}?s=150&v=1)"
 end
 
 def update_readme(save: false)
