@@ -49,7 +49,7 @@ class Readme
 
   def preview
     [
-      "<img align="right" src="monadance.gif" width="200"/>",
+      "<img align='right' src='monadance.gif' width='200"'>",
       "# 🍕 bdougie's Top 8 Page🍕",
       "## bdougie has #{@user.followers} followers",
       build_photo_grid(@developers),
