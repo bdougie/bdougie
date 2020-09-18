@@ -1,4 +1,4 @@
-<img align='right' src='monadance.gif' width='200"'>,
+<img align='right' src='monadance.gif' width='200'>,
 
 ...
 
