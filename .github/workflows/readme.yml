@@ -11,7 +11,9 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: ${{ github.head_ref }}
-    - run:  'echo "${{ github.event.issue.body }}" > temp.txt'
+    - run:  'echo "$ISSUE_BODY" > temp.txt'
+      env: 
+        ISSUE_BODY: ${{ github.event.issue.body }}
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -25,7 +27,7 @@ jobs:
         rm temp.txt
     - name: Create Pull Request
       if: ${{ startsWith(github.event.issue.title, 'Add handle') }}
-      uses: peter-evans/create-pull-request@v2
+      uses: peter-evans/create-pull-request@v3.5.0
       with:
         commit-message: ${{ github.event.issue.title }}
         title: ${{ github.event.issue.title }}
