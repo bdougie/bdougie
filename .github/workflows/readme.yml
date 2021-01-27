@@ -3,6 +3,7 @@ name: Readme
 on:
   issues:
     types: [opened, edited]
+  workflow_dispatch:
 
 jobs:
   readme:
