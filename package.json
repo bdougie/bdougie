@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/bdougie/bdougie#readme",
   "dependencies": {
+    "@actions/core": "^1.4.0",
     "@octokit/plugin-create-or-update-text-file": "^1.0.1",
     "octokit": "^1.0.5"
   }
