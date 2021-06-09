@@ -50,7 +50,7 @@ class Readme
   def preview
     [
       "# 🍕 bdougie's Top 8 Page🍕",
-      "## bdougie has #{@user.followers} followers",
+      "## bdougie has <!-- follower-counter -->#{@user.followers}<!-- /follower-counter --> followers",
       build_photo_grid(@developers),
     ].join("\n\n")
   end

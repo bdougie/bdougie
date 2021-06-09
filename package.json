@@ -1,0 +1,28 @@
+{
+  "name": "bdougie",
+  "private": true,
+  "version": "1.0.0",
+  "description": "MySpace README",
+  "main": "action.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdougie/bdougie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdougie/bdougie/issues"
+  },
+  "homepage": "https://github.com/bdougie/bdougie#readme",
+  "dependencies": {
+    "@octokit/plugin-create-or-update-text-file": "^1.0.1",
+    "octokit": "^1.0.5"
+  }
+}
