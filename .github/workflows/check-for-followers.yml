@@ -1,0 +1,19 @@
+name: Check For Followers
+on:
+  issues:
+    types:
+      - opened
+  workflow_dispatch:
+
+jobs:
+  boop:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - run: npm ci
+      - run: node action.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
