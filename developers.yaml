@@ -26,3 +26,78 @@ developerayo:
 - Lazy Loading images progressively and bundle analyzing in Webpack ([video](https://youtu.be/_Enq6G2gyks))
 mishmanners:
 - Link 2 Description ([video/slides/post/interview/project/community](URL))
+handle:
+- '"Why this developer is your Top 8" ([video/slides/post/interview/project/community](URL))'
+- 'Doc-SIG] Re: New PEP: reStructuredText Standard Docstring Format'
+- David Goodger goodger@users.sourceforge.net
+- Tue, 26 Mar 2002 22:44:35 -0500
+- 'Previous message: [Doc-SIG] RE: New PEP: reStructuredText Standard Docstring Format'
+- 'Next message: [Doc-SIG] Re: New PEP: reStructuredText Standard Docstring Format'
+- 'Messages sorted by: [ date ] [ thread ] [ subject ] [ author ]'
+- The updated PEP can be found at
+- http://docutils.sourceforge.net/spec/pep-xxxx.txt,
+- until it's assigned a number.
+- 'Paul Moore wrote:'
+- '> I''d suggest that you add a "Benefits" section, explaining the'
+- "> advantages to the individual programmer - not to the community as"
+- "> a whole - of the proposal."
+- Good idea.  Your list of benefits added.  Any others?
+- '> .. [1] Actually, it''s arguable that the similarity to "existing'
+- '>        practice" makes getting the syntax right harder. I never'
+- ">        get footnote syntax right without checking (and I may have"
+- ">        got this lot wrong!) This may be because of all the recent"
+- ">        changes, but it is still something that probably needs"
+- '>        covering in a Q&A. "Q: Won''t the superficial similarity to'
+- ">        existing markup conventions cause problems, and result in"
+- ">        people writing invalid markup (and not noticing, because"
+- '>        the plaintext looks natural)?"'
+- Question & answer added (#9)
+- "> Interestingly (and possibly relevantly) it's not clear to me that"
+- "> these benefits are overwhelming. It's more a case of the cost being"
+- "> minimal [4]_, and the potential benefits being reasonable."
+- I think it's a case of the benefits not being obviously significant,
+- until the standards and tools are there, and then we'll all wonder how
+- we ever lived without them!  Perhaps not that significant, but you
+- get my meaning.
+- "> Maybe we need to focus more strongly on getting tools working."
+- Yes, of course, and any help is gladly appreciated.  The thing about
+- scratching itches, is that you never know where or how they'll
+- manifest.
+- '> Something on the level of "look - I generated a help file and some'
+- "> printed documentation, and pydoc produces well-formatted information"
+- "> - all without doing anything more than using reST in my"
+- '> docstrings". People respond better to demonstrations than to'
+- "> standards..."
+- This is a classic chicken-and-egg situation.  Without tools, we can't
+- get acceptance, but in this case producing the tools is such a big job
+- that some form of acceptance up front is needed to keep up enthusiasm
+- "(mine, if nobody else's).  One reason for putting this PEP out there"
+- now, is that I'm at a point where I've put a lot of work into this
+- project, and it's starting to pay off, but I need some reassurance to
+- keep me going.  I want to know that I'm on the right track, that I'm
+- not wasting my time, and getting this PEP accepted would go a long way
+- in that direction.
+- Even if this PEP is rejected, that will be useful information.  If
+- accepted, then I can forget about supporting multiple markup parsers
+- in Docutils, at least for now.  If rejected, support for multiple
+- parsers may be its saving grace.
+- '>        ... how forgiving is reST going to be of "not quite right"'
+- ">        constructs?"
+- Added to the Q&A as part of the other question (#9).
+- "> PS I just noticed that I manually numbered the footnotes in this"
+- "> message - even though I needed to renumber at one point. In"
+- "> practice, I don't think I'd ever use the ``[#]`` notation for"
+- '> auto-numbering. It''s too hard to follow in "raw text" form. Just a'
+- "> data point..."
+- That's where using labels helps.  Instead of plain ``[#]``, use
+- "``[#a]`` or something more meaningful like ``[#subset]``.  You get"
+- both automatic numbering and easy to follow references.
+- Thanks for the feedback.
+- "--"
+- 'David Goodger    goodger@users.sourceforge.net    Open-source projects:'
+- "- Python Docstring Processing System: http://docstring.sourceforge.net"
+- "- reStructuredText: http://structuredtext.sourceforge.net"
+- "- The Go Tools Project: http://gotools.sourceforge.net"
+- 'Previous message: [Doc-SIG] RE: New PEP: reStructuredText Standard Docstring Format'
+- 'Next message: [Doc-SIG] Re: New PEP: reStructuredText Standard Docstring Format'
+- 'Messages sorted by: [ date ] [ thread ] [ subject ] [ author ]'
